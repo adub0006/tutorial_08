@@ -1,0 +1,20 @@
+---
+title: "tutorial8"
+format: memo-pdf
+branding: true
+---
+
+```{r warning= FALSE, message=TRUE, eval=TRUE,echo=TRUE}
+library(tidyverse)
+library(readr)
+library(dplyr)
+```
+
+```{r warning=FALSE, message=FALSE}
+covid_data <- read_csv("Data/worldwidecases.csv")
+```
+
+```{r eval=TRUE, echo=TRUE}
+covid_data
+
+```
